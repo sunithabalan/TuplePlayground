@@ -36,7 +36,7 @@ let flag: (Int, Bool, String) = (0, false, "Hello")
 let flag: (Int, (Bool, String)) = (1, (false, "Hello"))
 print(flag.0) // print: “1”
 print(flag.1.0) // print: “false”
-print(f.1.1) // print: “Hello”
+print(flag.1.1) // print: “Hello”
 
 
 //labeling the elements
